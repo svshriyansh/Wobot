@@ -19,7 +19,6 @@
 
 ## Tech
 
-This project uses a number of open source projects to work properly some of them are:
 
 - [Node.js](https://nodejs.org/en/) - evented I/O for the backend.
 - [Mongoose](https://mongoosejs.com) - Mongoose provides a straight-forward, schema-based solution.
