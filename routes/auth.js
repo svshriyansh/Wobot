@@ -47,10 +47,6 @@ routes.post("/signUP", async (req, res) => {
     if (user) {
       res.send("User already exist");
     }
-    user = await User.findOne({ username: username });
-    if (user) {
-      res.send("username already exist");
-    }
     user = new User({
       firstname: firstname,
       lastname: lastname,
